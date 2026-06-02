@@ -3,9 +3,9 @@
 This repository contains CSS practice challenges designed to improve my CSS skills and to build popular UI elements. Each challenge focuses on a specific technique, component, or layout to help develop a stronger, practical understanding of modern CSS.
 
 Contents
-- challenges/: Small projects and exercises (cards, navigation, forms, buttons, layouts, etc.)
-- demos/: Interactive examples and live previews
-- notes/: Tips, snippets, and lessons learned
+- challenges : Small projects and exercises (cards, navigation, forms, buttons, layouts, etc.)
+- demos : Interactive examples and live previews
+- notes : Tips, snippets, and lessons learned
 
 How to use
 - Browse the challenges folder and pick an exercise.
@@ -22,5 +22,3 @@ Contributing
 
 License
 - Personal project. No license specified.
-
-```
