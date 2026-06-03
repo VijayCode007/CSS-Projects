@@ -46,9 +46,18 @@ div.details{
 }
 
 ul.card-stats{
+    display: none;
+}
+
+.card:hover ul.card-stats {
     display: flex;
     justify-content: first baseline;
     gap:10px;
+}
+
+.card:hover svg{
+    display: flex;
+    height: 20px;
 }
 
 li{
@@ -60,8 +69,4 @@ li{
     padding: 5px;
     display: flex;
     gap: 5px;
-}
-
-li>svg{
-    max-height: 20px;
 }
