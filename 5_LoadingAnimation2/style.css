@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+}
+
+.load-dock{
+    display: flex;
+    gap: 20px;
+}
+
+@keyframes waiting{
+    from { rotate: 45deg; }
+    to { rotate: 135deg; }
+}
+
+.box{
+    height: 30px;
+    aspect-ratio: 1;
+    animation: waiting infinite ease-out 1s;
+}
+
+.box:first-child{
+    background-color: red;
+}
+
+.box:nth-child(2){
+    background-color: yellow;
+}
+
+.box:last-child{
+    background-color: blue;
+}
