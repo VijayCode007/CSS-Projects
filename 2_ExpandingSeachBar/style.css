@@ -15,6 +15,7 @@ body {
     width: 90%;
     border: 1px thin;
     /* background-color: gray; */
+    min-width: 320px;
 }
 .search{
     width: 30%;
@@ -27,8 +28,7 @@ body {
 
 .search:focus{
     width: 100%;
-    background-color: black;
-    color:white;
+    outline: 1px solid blue;
 }
 
 .search:focus::placeholder{
