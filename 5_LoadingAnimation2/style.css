@@ -16,11 +16,6 @@ body {
     background-color: #1f1f1f;
 }
 
-.load-dock{
-    display: flex;
-    gap: 20px;
-}
-
 @keyframes waiting{
     from { rotate: 45deg; }
     to { rotate: 135deg; }
@@ -29,7 +24,8 @@ body {
 .box{
     height: 30px;
     aspect-ratio: 1;
-    animation: waiting infinite ease-out 1s;
+    margin:8px;
+    animation: waiting infinite ease-out 0.8s;
 }
 
 .box:first-child{
