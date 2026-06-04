@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes changingText {
+  0% {
+    content: "Coding";
+  }
+  25% {
+    content: "Swimming";
+  }
+  50% {
+    content: "Reading";
+  }
+  75% {
+    content: "Driving";
+  }
+  100% {
+    content: "Coding";
+  }
+}
+
+h1:after {
+  content: "";
+  animation: changingText infinite ease-in-out 2s;
+  padding: 10px;
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(24, 24, 72);
+  font-size: 1em;
+  border-radius: 5px;
+}
