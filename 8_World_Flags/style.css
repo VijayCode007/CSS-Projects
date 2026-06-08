@@ -63,3 +63,16 @@ div.france > .stripe {
 .madagascar>.stripe{
     background-color: var(--color);
 }
+
+div.japan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.circle{
+    background-color: red;
+    height: 120px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
