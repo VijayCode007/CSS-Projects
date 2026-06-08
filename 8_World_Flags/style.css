@@ -84,3 +84,31 @@ div.congo{
      yellow 60%,
     red 60%);
 }
+
+div.georgia{
+  background-color: red;
+  display: grid;
+  gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+}
+
+.georgia > .blocks{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.blocks>.cross{
+  height: 40px;
+  width: 10px;
+  background-color: red;
+  position: absolute;
+}
+
+.cross:nth-child(2){
+  transform: rotate(90deg);
+}
