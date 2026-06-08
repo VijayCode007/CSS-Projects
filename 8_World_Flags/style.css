@@ -34,10 +34,11 @@ div.flag{
 
 .france{
     display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
 }
 
 div.france>.stripe{
-    /* flex grow creates element with size of width/height which is max to the parent size */
-    flex-grow: 1;    
+    flex-grow: 1;  /* flex grow creates element with size of width/height which is max to the parent size */  
     background-color: var(--color);
 }
