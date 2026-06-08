@@ -31,3 +31,13 @@ div.flag{
     border: 1px solid;
     background-color: rgb(210, 210, 210);
 }
+
+.france{
+    display: flex;
+}
+
+div.france>.stripe{
+    /* flex grow creates element with size of width/height which is max to the parent size */
+    flex-grow: 1;    
+    background-color: var(--color);
+}
